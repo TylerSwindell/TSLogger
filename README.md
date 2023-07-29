@@ -23,7 +23,7 @@ yarn add ts-logger-node
 To use the logger, import it into your project:
 
 ```javascript
-import Logger from " ts-logger-node";
+import Logger from "ts-logger-node";
 ```
 
 ### Logging Messages
