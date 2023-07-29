@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import Logger, { textStyles } from "./index";
-import { LogType, LogReturnType } from "./types";
+import Logger, { textStyles } from "../index";
+import { LogType, LogReturnType } from "./@types";
 
 describe("Whatever", () => {
   it("should pass CI", () => {

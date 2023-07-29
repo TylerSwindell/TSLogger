@@ -1,6 +1,18 @@
-import { ConsoleStyle } from "./types";
+export type ConsoleStyle = string;
 
-const textStyles = {
+export type LogType = "ERROR" | "GENERAL" | "HEADER" | "HIDDEN";
+
+export type LogReturnType = "FILE_WRITE_ERROR" | "SUCCESS_LOG" | "ERROR_LOG";
+
+export type LogFormat = ".log" | ".csv";
+
+export type FilePath = {
+  dir: string;
+  fileName: string;
+  fileExt: LogFormat;
+};
+
+export const textStyles = {
   Reset: "\x1b[0m" as ConsoleStyle,
   Bright: "\x1b[1m" as ConsoleStyle,
   Dim: "\x1b[2m" as ConsoleStyle,
@@ -30,5 +42,3 @@ const textStyles = {
   BgWhite: "\x1b[47m" as ConsoleStyle,
   BgGray: "\x1b[100m" as ConsoleStyle,
 };
-
-export { textStyles };

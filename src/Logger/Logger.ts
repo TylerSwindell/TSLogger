@@ -1,6 +1,11 @@
 import fs from "fs";
-import { ConsoleStyle, LogType, LogReturnType, FilePath } from "./types";
-import { textStyles } from "./textStyles";
+import {
+  ConsoleStyle,
+  LogType,
+  LogReturnType,
+  FilePath,
+  textStyles,
+} from "./@types";
 
 let LoggerOptions = {
   delimeter: ",",

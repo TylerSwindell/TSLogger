@@ -1,4 +1,3 @@
-import { Logger } from "./Logger";
+import { Logger } from "./Logger/Logger";
 export default Logger;
-export { textStyles } from "./textStyles";
-export * from "./types";
+export * from "./Logger/@types";
