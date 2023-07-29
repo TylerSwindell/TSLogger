@@ -7,7 +7,7 @@ ts-logger-node is a Node.js logging package that provides a simple yet powerful 
 To install ts-logger-node, you can use npm or yarn:
 
 ```bash
-npm install  ts-logger-node
+npm install ts-logger-node
 ```
 
 or
