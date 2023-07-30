@@ -1,7 +1,5 @@
-.prettierrc
-.changeset
-.github
-src
-tsconfig.json
-logs
+*
+!CHANGELOG.md
+!package.json
+!LICENSE
 !dist/
