@@ -1,5 +1,11 @@
 # ts-logger-node
 
+## 2.0.3
+
+### Patch Changes
+
+- 04f8900: Editing npmignore
+
 ## 2.0.2
 
 ### Patch Changes
