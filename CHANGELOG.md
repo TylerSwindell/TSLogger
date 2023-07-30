@@ -1,5 +1,11 @@
 # ts-logger-node
 
+## 2.0.4
+
+### Patch Changes
+
+- 5d003b4: Patching .gitignore and .npmignore
+
 ## 2.0.3
 
 ### Patch Changes
