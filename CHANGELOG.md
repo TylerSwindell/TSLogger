@@ -1,5 +1,11 @@
 # ts-logger-node
 
+## 2.0.5
+
+### Patch Changes
+
+- cc2b5c7: dist
+
 ## 2.0.4
 
 ### Patch Changes
