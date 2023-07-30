@@ -1,5 +1,11 @@
 # ts-logger-node
 
+## 2.0.2
+
+### Patch Changes
+
+- 4fab0bb: Added dist to 'file' in package.json
+
 ## 2.0.0
 
 ### Major Changes

@@ -1,6 +1,6 @@
 {
   "name": "ts-logger-node",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "TS-Logger-Node is a TypeScript library that provides logging functionality with customizable styles and log file management. It allows you to print log messages to the console with various text and background styles, as well as append them to separate log files.",
   "author": "Tyler Swindell <Tyler.Swindell.Design@gmail.com> (https://tylerswindell.design/)",
   "license": "MIT",
