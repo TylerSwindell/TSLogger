@@ -1,5 +1,11 @@
 # ts-logger-node
 
+## 2.0.7
+
+### Patch Changes
+
+- 9c14413: Added Next configuration to README
+
 ## 2.0.6
 
 ### Patch Changes
