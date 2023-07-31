@@ -90,7 +90,7 @@ Logger.print("White text on red background!", "GENERAL", {
 
 ## Next Usability
 
-When implimenting `ts-logger-node` in a NextJS app the a next.config file must include the following:
+Implimenting `ts-logger-node` can only be done in server-components currently. In order to use `Logger`, or any other package that requries 'fs', in a NextJS app the a next.config file must include the following:
 
 ```
 const nextConfig = {
