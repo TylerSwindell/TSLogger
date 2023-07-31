@@ -88,6 +88,21 @@ Logger.print("White text on red background!", "GENERAL", {
 });
 ```
 
+## Next Usability
+
+When implimenting `ts-logger-node` in a NextJS app the a next.config file must include the following:
+
+```
+const nextConfig = {
+  webpack5: true,
+  webpack: (config) => {
+    config.resolve.fallback = { fs: false };
+
+    return config;
+  }
+}
+```
+
 ## Contributing
 
 If you find any issues with ts-logger-node or want to contribute improvements or new features, please feel free to open an issue or submit a pull request on the GitHub repository.
