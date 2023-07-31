@@ -1,5 +1,11 @@
 # ts-logger-node
 
+## 2.0.6
+
+### Patch Changes
+
+- b0d8e46: Reconfigured .npmignore
+
 ## 2.0.5
 
 ### Patch Changes
